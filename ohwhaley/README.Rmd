@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ohwhaley
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of ohwhaley is to summon a whale for a customisable pick-me-up
+
+## Installation
+
+You can install the released version of ohwhaley from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("ohwhaley")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("akansha-kumar/ohwhaley")
+```
+## Example
+
+This is a basic example which shows you how to summon a whale:
+
+```{r example}
+say("Whale done!")
+## basic example that prints "Whale done!" with a whale
+```
+
